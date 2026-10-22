@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dar Al Loujain – Education &amp; Training Center</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0d3b5e;--navy2:#082a44;--gold:#b8923f;--gold2:#e9d9b0;--bg:#fbf9f4;--card:#fff;--ink:#16293a;--mute:#5b6b79;--line:#e3ddcd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1b2a;--card:#102a40;--ink:#eef2f5;--mute:#a9b8c4;--line:#24435c;--gold2:#3a3220}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'Nunito Sans',system-ui,sans-serif}
+h1,h2,h3{font-family:Lora,Georgia,serif;line-height:1.2;margin:0 0 .5em}
+a{color:inherit}.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:var(--navy);color:#fff;border-bottom:3px solid var(--gold)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;flex-wrap:wrap}
+.brand{font:700 19px Lora,serif;text-decoration:none;color:#fff}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-size:15px;align-items:center}nav a{text-decoration:none;opacity:.9}nav a:hover{color:var(--gold2)}
+.btn{display:inline-block;background:var(--gold);color:#fff;border:0;padding:11px 20px;border-radius:6px;font:700 15px 'Nunito Sans',sans-serif;cursor:pointer;text-decoration:none}
+.btn:hover{filter:brightness(1.1)}.btn.ghost{background:transparent;border:2px solid #fff}.btn.sm{padding:7px 14px;font-size:14px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{background:var(--navy);color:#fff;padding:64px 0 72px;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center}
+.hero h1{font-size:clamp(32px,5vw,52px)}.hero p{color:#d5e0e8;max-width:520px;font-size:18px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.crest{justify-self:center;width:min(260px,70%)}
+section{padding:56px 0}section h2{font-size:clamp(26px,3.5vw,34px)}
+.sub{color:var(--mute);max-width:600px;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;flex-direction:column}
+.card h3{font-size:19px}.card p{margin:0 0 14px;color:var(--mute);font-size:15px}.card .push{margin-top:auto}
+.tag{display:inline-block;background:var(--gold2);color:#6b5217;font-size:13px;font-weight:700;padding:2px 10px;border-radius:99px;margin-bottom:10px;align-self:flex-start}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag{color:#e9d9b0}}
+.alt{background:var(--card);border-block:1px solid var(--line)}
+.book{border-top:6px solid var(--navy)}.book .price{font:700 20px Lora,serif;color:var(--gold);margin-bottom:10px}
+.art small{color:var(--mute)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+ul.ticks{list-style:none;padding:0;margin:0}ul.ticks li{padding:6px 0 6px 26px;position:relative}ul.ticks li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:700}
+#cart{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--navy);color:#fff;border:2px solid var(--gold);border-radius:99px;padding:12px 18px;font:700 15px 'Nunito Sans';cursor:pointer;z-index:6;box-shadow:0 4px 14px #0004}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:440px;width:92%;padding:22px}
+dialog::backdrop{background:#0008}
+.row{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+input{width:100%;padding:10px;border:1px solid var(--line);border-radius:6px;font:inherit;background:var(--bg);color:var(--ink);margin:8px 0}
+footer{background:var(--navy2);color:#c9d6df;padding:36px 0;font-size:15px}footer a{color:var(--gold2)}
+@media(max-width:760px){.hero .wrap,.two{grid-template-columns:1fr}.crest{order:-1;width:140px}nav{font-size:14px;gap:10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header><div class="wrap"><a class="brand" href="#top">Dar Al Loujain</a>
+<nav><a href="#courses">Courses</a><a href="#books">Books</a><a href="#articles">Articles</a><a href="#services">Services</a><a href="#contact">Contact</a><a class="btn sm" href="#register">Register</a></nav></div></header>
+
+<div class="hero" id="top"><div class="wrap"><div>
+<h1>Learn English, write research, and grow with confidence.</h1>
+<p>A learning center in Simkaniyeh, Al Shouf, supporting students of all levels, online and on site.</p>
+<div class="cta"><a class="btn" href="#register">Register for a course</a><a class="btn ghost" href="#books">Shop books</a></div></div>
+<svg class="crest" viewBox="0 0 200 220" aria-label="Dar Al Loujain crest"><path d="M30 20h140v90c0 45-35 70-70 85-35-15-70-40-70-85z" fill="#fff" stroke="#b8923f" stroke-width="6"/><path d="M42 30h116v80c0 36-28 56-58 70-30-14-58-34-58-70z" fill="none" stroke="#0d3b5e" stroke-width="5"/><rect x="78" y="105" width="44" height="24" rx="4" fill="none" stroke="#0d3b5e" stroke-width="5"/><path d="M104 100c8-20 22-42 40-58-8 24-20 42-34 58z" fill="#b8923f"/><path d="M60 45l4 9 10 1-8 6 3 10-9-6-9 6 3-10-8-6 10-1z" fill="#b8923f"/></svg></div></div>
+
+<section id="courses"><div class="wrap"><h2>Courses</h2><p class="sub">Online and on-site classes with qualified teachers. Pick a course and register in a minute.</p>
+<div class="grid" id="courseGrid"></div></div></section>
+
+<section class="alt" id="books"><div class="wrap"><h2>Book shop</h2><p class="sub">Add books to your order and send it to us on WhatsApp. We confirm availability and delivery with you.</p>
+<div class="grid" id="bookGrid"></div></div></section>
+
+<section id="articles"><div class="wrap"><h2>Articles</h2><p class="sub">Study tips and guides from our teachers.</p>
+<div class="grid" id="artGrid"></div></div></section>
+
+<section class="alt" id="services"><div class="wrap two"><div><h2>Academic services</h2><ul class="ticks"><li>Private tutoring for school and college students</li><li>Research writing for humanities and scientific majors</li><li>Publishing articles</li></ul></div>
+<div><h2>Placement &amp; assessments</h2><p class="sub" style="margin-bottom:14px">Not sure which level fits? Take a short assessment and we will recommend a course.</p><a class="btn" id="assessLink" target="_blank" rel="noopener" href="#">Take the assessment</a></div></div></section>
+
+<section id="register"><div class="wrap"><h2>Register for a course</h2><p class="sub">Fill in the registration form. We will contact you to confirm your place and schedule.</p>
+<a class="btn" id="formLink" target="_blank" rel="noopener" href="#">Open registration form</a> <a class="btn" style="background:var(--navy)" id="waReg" target="_blank" rel="noopener" href="#">Or message us on WhatsApp</a></div></section>
+
+<footer id="contact"><div class="wrap two"><div><h3 style="color:#fff">Dar Al Loujain</h3><p>English language, research writing, and computer learning center in Simkaniyeh, Al Shouf.</p></div>
+<div><p>Phone: <a href="tel:+9613438489">03 438 489</a><br>WhatsApp: <a href="https://wa.me/9613438489">+961 3 438 489</a><br>Open daily 9:00 AM – 6:00 PM<br>Location: Baakleen, Lebanon</p></div></div></footer>
+
+<button id="cart" aria-label="Open order">Order (<span id="cnt">0</span>)</button>
+<dialog id="dlg"><h3>Your book order</h3><div id="items"></div><p><strong>Total: $<span id="tot">0</span></strong></p>
+<label for="nm">Your name</label><input id="nm" autocomplete="name"><label for="ph">Phone number</label><input id="ph" type="tel" autocomplete="tel">
+<div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn" id="send">Send order on WhatsApp</button><button class="btn" style="background:var(--mute)" id="close">Close</button></div></dialog>
+
+<script>
+// ===== EDIT THESE =====
+var WA="9613438489";
+var FORM_URL="https://forms.gle/REPLACE_WITH_YOUR_REGISTRATION_FORM";
+var ASSESS_URL="https://forms.gle/REPLACE_WITH_YOUR_ASSESSMENT_FORM";
+var COURSES=[
+ ["English for Kids","Ages 5–12","Fun, interactive lessons with qualified teachers. Fee: $50."],
+ ["IELTS","Exam prep","Prepare for the IELTS with practice tests and feedback."],
+ ["TOEFL","Exam prep","Build the skills and strategy for the TOEFL."],
+ ["SAT","Exam prep","Prepare for the SAT with focused practice."],
+ ["Speaking English","Conversation","Speak more fluently and with confidence."],
+ ["Business English","Professional","Emails, meetings, and presentations at work."],
+ ["Medical English","Professional","Vocabulary and communication for healthcare."]];
+var BOOKS=[["IELTS Practice Pack",15],["TOEFL Preparation Guide",18],["SAT Study Book",20],["Everyday Speaking Workbook",10],["Business English Essentials",14],["Medical English Handbook",16]];
+var ARTS=[["How to prepare for the IELTS in 8 weeks","A simple weekly plan for each IELTS section."],["Five habits for better research writing","Structure, sources, and editing tips for students."],["Speaking English with confidence","Practical ways to practice every day."]];
+// ======================
+var $=function(i){return document.getElementById(i)},cart={};
+function msg(t){return "https://wa.me/"+WA+"?text="+encodeURIComponent(t)}
+$("formLink").href=FORM_URL;$("assessLink").href=ASSESS_URL;$("waReg").href=msg("Hello, I would like to register for a course.");
+COURSES.forEach(function(c){var d=document.createElement("div");d.className="card";
+ d.innerHTML='<span class="tag">'+c[1]+'</span><h3>'+c[0]+'</h3><p>'+c[2]+'</p><a class="btn sm push" target="_blank" rel="noopener" href="'+FORM_URL+'">Register</a>';$("courseGrid").appendChild(d)});
+BOOKS.forEach(function(b,i){var d=document.createElement("div");d.className="card book";
+ d.innerHTML='<h3>'+b[0]+'</h3><div class="price">$'+b[1]+'</div><button class="btn sm push" data-i="'+i+'">Add to order</button>';$("bookGrid").appendChild(d)});
+ARTS.forEach(function(a){var d=document.createElement("div");d.className="card art";
+ d.innerHTML='<h3>'+a[0]+'</h3><p>'+a[1]+'</p><small class="push">Article</small>';$("artGrid").appendChild(d)});
+$("bookGrid").addEventListener("click",function(e){var i=e.target.dataset.i;if(i===undefined)return;cart[i]=(cart[i]||0)+1;draw()});
+function draw(){var n=0,t=0,h="";Object.keys(cart).forEach(function(i){var q=cart[i];n+=q;t+=q*BOOKS[i][1];
+ h+='<div class="row"><span>'+BOOKS[i][0]+' × '+q+'</span><button class="btn sm" data-r="'+i+'" aria-label="Remove one">−</button></div>'});
+ $("cnt").textContent=n;$("tot").textContent=t;$("items").innerHTML=h||"<p>Your order is empty.</p>"}
+$("items").addEventListener("click",function(e){var i=e.target.dataset.r;if(i===undefined)return;if(--cart[i]<=0)delete cart[i];draw()});
+$("cart").onclick=function(){draw();$("dlg").showModal()};$("close").onclick=function(){$("dlg").close()};
+$("send").onclick=function(){var l=Object.keys(cart).map(function(i){return "- "+BOOKS[i][0]+" × "+cart[i]});
+ if(!l.length){alert("Add at least one book first.");return}
+ window.open(msg("Book order\nName: "+$("nm").value+"\nPhone: "+$("ph").value+"\n"+l.join("\n")+"\nTotal: $"+$("tot").textContent),"_blank")};
+draw();
+</script></body></html>
